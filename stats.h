@@ -21,11 +21,11 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-void sort_array(char *arr,int size);
-void print_array(char *arr,int size);
-void print_statistics(char *arr,int size);
-char find_median(char *arr,int size);
-char find_mean(char *arr,int size);
-char find_maximum(char *arr,int size);
-char find_minimum(char *arr,int size);
+void sort_array(unsigned char *arr,int size);
+void print_array(unsigned char *arr,int size);
+void print_statistics(unsigned char *arr,int size);
+char find_median(unsigned char *arr,int size);
+int find_mean(unsigned char *arr,int size);
+char find_maximum(unsigned char *arr,int size);
+char find_minimum(unsigned char *arr,int size);
 #endif /* __STATS_H__ */
