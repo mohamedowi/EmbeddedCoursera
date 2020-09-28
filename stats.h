@@ -9,32 +9,23 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ *
+ * Header File ProtoTypes
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Mohamed Amr 
+ * 
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
-
-
+void sort_array(char *arr,int size);
+void print_array(char *arr,int size);
+void print_statistics(char *arr,int size);
+char find_median(char *arr,int size);
+char find_mean(char *arr,int size);
+char find_maximum(char *arr,int size);
+char find_minimum(char *arr,int size);
 #endif /* __STATS_H__ */
