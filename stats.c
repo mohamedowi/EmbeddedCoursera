@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
- *
- * <Add Extended Description Here>
+ * stats.c 
+ * This C file contains 5 functions to be implemnted. The max,min,sort,find median,find_mean, print_array and print_statistics.
+ * In Addition a helper swap method is implemented to be used for sorting the array.
+ * 
+ * 
  *
  * Mohamed Amr
- * @date <Add date >
+ * 02/10/2020
  *
  */
 
@@ -92,7 +93,7 @@ void sp(unsigned char *ptr1,unsigned char *ptr2){
     *ptr2 = temp;
 
 }
-void print_statistics(char *arr,int size){
+void print_statistics(unsigned char *arr,int size){
 unsigned char median = find_median(arr,size);
 printf("Median is : %d \n", median);
 unsigned char mean = find_mean(arr,size);
