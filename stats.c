@@ -10,8 +10,8 @@
  *****************************************************************************/
 /**
  * stats.c 
- * This C file contains 5 functions to be implemnted. The max,min,sort,find median,find_mean, print_array and print_statistics.
- * In Addition a helper swap method is implemented to be used for sorting the array.
+ * This C file contains 7 functions to be implemnted. The max,min,sort,find median,find_mean, print_array and print_statistics.
+ * In Addition a helper swap method is implemented to be used for sorting the array. The implementation description is written in the header file.
  * 
  * 
  *
